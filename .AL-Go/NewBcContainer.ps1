@@ -28,5 +28,3 @@ $fontsToInstall = @(
 Add-FontsToBcContainer `
             -containerName $parameters.containerName `
             -path $fontsToInstall
- 
-Restart-BcContainerServiceTier -containerName $parameters.containerName
